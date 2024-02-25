@@ -1,0 +1,80 @@
+.form {
+  margin: auto;
+  max-width: 600px;
+  background: #666666;
+  padding: 1.5rem;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  .card {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+
+    .formLabel {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-weight: 500;
+      color: #232323;
+      &.Mui-focused {
+        color: '#232323'
+      }
+    }
+    
+    .formControl {
+      margin-bottom: 1.25rem;
+      &.middleName {
+        margin-bottom: 0;
+      }
+    }
+
+    .textField {
+      .MuiInputBase-input {
+        &.Mui-error {
+          color: #f00;
+        }
+      }
+    }
+
+    .hr {
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    .radioGroup {
+      margin-bottom: 0.5rem;
+      .radioButton {
+        // color: #20ad67;
+        &.Mui-checked {
+          color: #20ad67;
+        }
+        & + .MuiStack-root .MuiFormControlLabel-asterisk {
+          display: none;
+        }
+      }
+    }
+
+    .formButton {
+      padding: 0.5rem;
+      &.buttonCancel {
+        border-color: #20ad67;
+        color: #20ad67;
+        &:hover { 
+          background-color: #baedd4; 
+          color: #157244; 
+          border-color: #157244;
+        }
+      }
+      &.buttonSubmit {
+        background-color: #20ad67; 
+        &:hover { 
+          background-color: #13683e;
+        }
+      }
+    }
+
+    .formResult {
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+}

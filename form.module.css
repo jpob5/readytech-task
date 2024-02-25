@@ -1,0 +1,66 @@
+.form {
+  margin: auto;
+  max-width: 600px;
+  background: #666666;
+  padding: 1.5rem;
+}
+.form h1 {
+  font-family: "Roboto", sans-serif;
+}
+.form .card {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+.form .card .formLabel {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  color: #232323;
+}
+.form .card .formLabel.Mui-focused {
+  color: "#232323";
+}
+.form .card .formControl {
+  margin-bottom: 1.25rem;
+}
+.form .card .formControl.middleName {
+  margin-bottom: 0;
+}
+.form .card .textField .MuiInputBase-input.Mui-error {
+  color: #f00;
+}
+.form .card .hr {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.form .card .radioGroup {
+  margin-bottom: 0.5rem;
+}
+.form .card .radioGroup .radioButton.Mui-checked {
+  color: #20ad67;
+}
+.form .card .radioGroup .radioButton + .MuiStack-root .MuiFormControlLabel-asterisk {
+  display: none;
+}
+.form .card .formButton {
+  padding: 0.5rem;
+}
+.form .card .formButton.buttonCancel {
+  border-color: #20ad67;
+  color: #20ad67;
+}
+.form .card .formButton.buttonCancel:hover {
+  background-color: #baedd4;
+  color: #157244;
+  border-color: #157244;
+}
+.form .card .formButton.buttonSubmit {
+  background-color: #20ad67;
+}
+.form .card .formButton.buttonSubmit:hover {
+  background-color: #13683e;
+}
+.form .card .formResult {
+  text-align: center;
+  font-size: 1rem;
+}/*# sourceMappingURL=form.module.css.map */
